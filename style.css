@@ -85,14 +85,21 @@ button{
     background-color: blue;
     border: none;
 }
-#result{
-      height: 90vh;
-    display: flex;
-    padding-top: 20px;
-    justify-content: space-around;
+#result {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#savedResult {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.recipe-card {
+
+/* .recipe-card {
   width: 20rem;
   height: 30rem;
   border-radius: 12px;
@@ -100,7 +107,7 @@ button{
   overflow: hidden;
   background: #fff;
   transition: transform 0.3s ease;
-}
+} */
 
 .recipe-card:hover {
   transform: translateY(-5px);
@@ -176,4 +183,22 @@ button{
   margin: 4px 0;
   font-size: 14px;
   color: #333;
+}
+@media (max-width:500px) {
+  input{
+    width: 150px;
+  }
+ 
+  #savedResult{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+
+  #result {
+    justify-content: center;
+  }
+  #savedResult {
+    justify-content: center;
+  }
 }
