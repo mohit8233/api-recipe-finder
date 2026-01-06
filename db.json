@@ -238,6 +238,36 @@
         "Spices"
       ],
       "image": "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2015/10/Koli-Chicken-Curry-02.jpg"
+    },
+    {
+      "id": "1",
+      "name": "Paneer Butter Masala",
+      "category": "Indian",
+      "time": "30 mins",
+      "difficulty": "Medium",
+      "rating": 4.6,
+      "ingredients": [
+        "Paneer",
+        "Butter",
+        "Tomato",
+        "Cream",
+        "Spices"
+      ],
+      "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7"
+    },
+    {
+      "id": "4",
+      "name": "Veg Biryani",
+      "category": "Indian",
+      "time": "40 mins",
+      "difficulty": "Medium",
+      "rating": 4.5,
+      "ingredients": [
+        "Rice",
+        "Vegetables",
+        "Biryani Masala"
+      ],
+      "image": "https://i0.wp.com/kalimirchbysmita.com/wp-content/uploads/2016/05/Lakhnawi-Veg-Biryani-01.jpg"
     }
   ]
 }
